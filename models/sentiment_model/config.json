@@ -1,0 +1,11 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "max_length": 512,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "epochs": 3,
+  "dropout": 0.3,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "num_classes": 5
+}
