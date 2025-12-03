@@ -3,9 +3,12 @@
   "max_length": 512,
   "batch_size": 16,
   "learning_rate": 2e-05,
-  "epochs": 3,
+  "epochs": 10,
   "dropout": 0.3,
   "warmup_ratio": 0.1,
   "weight_decay": 0.01,
-  "num_classes": 5
+  "num_categories": 5,
+  "num_sentiments": 3,
+  "category_loss_weight": 1.0,
+  "sentiment_loss_weight": 1.0
 }
